@@ -48,3 +48,44 @@ function tri(a,b,c){
 }
 
 tri(13,33,17);
+
+function solution(num){
+    if(num%2===0){
+        console.log("짝수입니다.");
+    }else{
+        console.log("홀수 입니다.")
+    }
+}
+
+solution(2)
+
+
+
+
+// function solution (a){
+//     if (a==="비"){
+//         console.log("우산 챙겨라");
+//     }else if(a==="더움"){
+//         console.log("물 챙겨라");
+//     }else{
+//         console.log("날이 좋은듯")
+//     }
+// }
+
+// solution("맑음")
+
+
+// for(let i=0; i<10; i++){
+//     console.log(i++);
+// }
+
+
+// for(let i=0; i<10; i++){
+//     console.log(i++);
+// }
+
+// let i=0;
+// while(i<10){
+//     console.log(i);
+//     i++;
+// }
